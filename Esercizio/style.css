@@ -6,14 +6,21 @@ body{
     display: grid;
     grid-auto-rows: 60px;
     grid-template-columns: 60px;
-
+    align-self: center;
+    place-content: center;
 
 }
 .square1{
     background-color: rgb(0, 0, 0);
     position: relative;
-    right: 3.5px;
+    right: 131.5px;
     align-content:flex-end; 
     color: rgb(255, 255, 255);
 }
-
+.immagine{
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 93px;
+    width: 300px;
+}
