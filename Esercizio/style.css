@@ -25,8 +25,38 @@ body{
     width: 300px;
 }
 .menu{
-    width: 36px;
+    display: flex;
+    margin: auto;
+    width: 30px;
     position: relative;
     top: 34px;
-    right: -340px;
+    right: -120px;
+}
+.description{
+    color: rgba(110, 110, 110, 1);;
+    font-weight: bold;
+    place-content: center;
+    display: flex;
+    position: relative;
+    top: 32px;
+    right: 119px;
+    font-size: 5px;
+}
+.testo1{
+    position: relative;
+    place-content: center;
+    display: flex;
+    font-weight: bold;
+    color:  rgba(44, 44, 44, 1);
+    top: 32px;
+    right: 18px;
+}
+.testo2{
+    display: flex;
+    place-content: center;
+    position: relative;
+    top: 32px;
+    right: -281px;
+    color: rgba(110, 110, 110, 1);;
+    font-weight: bold;
 }
