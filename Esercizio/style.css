@@ -1,4 +1,80 @@
+
 body{
     background-color: rgb(255, 255, 255);
 }
+
+.square{
+    display: grid;
+    grid-auto-rows: 60px;
+    grid-template-columns: 60px;
+    align-self: center;
+    place-content: center;
+
+}
+.square1{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    right: 173.5px;
+    align-content:flex-end; 
+    color: rgb(255, 255, 255);
+}
+.immagine{
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 23px;
+    width: 400px;
+    
+}
+.menu{
+    display: flex;
+    margin: auto;
+    width: 35px;
+    position: relative;
+    top: 34px;
+    right: -170px;
+}
+.description{
+    color: rgba(110, 110, 110, 1);;
+    font-weight: bold;
+    place-content: center;
+    display: flex;
+    position: relative;
+    top: 32px;
+    right: 157px;
+    font-size: 8px;
+}
+.testo1{
+    position: relative;
+    place-content: center;
+    display: flex;
+    font-weight: bold;
+    color:  rgba(44, 44, 44, 1);
+    top: 32px;
+    right: 70px;
+}
+.descrizione1{
+    display: grid;
+    grid-auto-rows: 90px;
+    grid-template-columns: 400px;
+    align-self: center;
+    place-content: center;
+}
+.testodesc1{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    position: relative;
+    top: 40px;
+    align-content:top; 
+    color: rgba(110, 110, 110, 1);
+}
+.testodesc2{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    position: relative;
+    top: 70px;
+    align-content:top; 
+    color: rgba(110, 110, 110, 1);
+}
+
 
