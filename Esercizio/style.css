@@ -237,3 +237,60 @@ body{
     right: -160px;
     font-size: 8px;
 }
+.immagine4{
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 123px;
+    width: 400px;
+}
+.testo5{
+    position: relative;
+    place-content: center;
+    display: flex;
+    font-weight: bold;
+    color:  rgba(44, 44, 44, 1);
+    top: 140px;
+    right: 152px;
+}
+.testodesc5{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    position: relative;
+    top: 144px;
+    align-content:top; 
+    color: rgba(110, 110, 110, 1);
+}
+.arrow3{
+    place-content: center;
+    display: flex;
+    position: relative;
+    margin: auto;
+    top: 117.5px;
+    right: -187px;
+}
+.description10{
+    color: #1473E6;
+    font-weight: bold;
+    place-content: center;
+    display: flex;
+    position: relative;
+    top: 103.5px;
+    right: -160px;
+    font-size: 8px;
+}
+.spazio{
+    display: grid;
+    grid-auto-rows: 40px;
+    grid-template-columns: 90px;
+    align-self: center;
+    place-content: center;
+}
+.spaziotext{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    position: relative;
+    top: 110px;
+    align-content:top; 
+    color: rgba(110, 110, 110, 1);
+}
