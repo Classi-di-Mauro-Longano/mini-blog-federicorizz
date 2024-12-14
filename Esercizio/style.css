@@ -928,8 +928,8 @@ body{
         display: flex;
         margin: auto;
         position: relative;
-        top: -487px;
-        right: -90px;
+        top: -489px;
+        right: 0px;
         width: 300px;
     }
     .description7{
@@ -938,8 +938,8 @@ body{
         place-content: center;
         display: flex;
         position: relative;
-        top: -199px;
-        right: -83px;
+        top: -480px;
+        right: 106px;
         font-size: 8px;
     }
     .testo4{
@@ -948,8 +948,8 @@ body{
         display: flex;
         font-weight: bold;
         color:  rgba(44, 44, 44, 1);
-        top: -190px;
-        right: -89px;
+        top: -470px;
+        right: 100px;
     }
     .container-description4{
         align-self: center;
@@ -965,8 +965,8 @@ body{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
-        top: -184px;
-        right: -192px;
+        top: -464px;
+        right: -3px;
         align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
@@ -976,8 +976,8 @@ body{
         place-content: center;
         display: flex;
         position: relative;
-        top: -170px;
-        right: -62px;
+        top: -450px;
+        right: 125px;
         font-size: 8px;
     }
     .arrow2{
@@ -985,8 +985,8 @@ body{
         display: flex;
         position: relative;
         margin: auto;
-        top: -182px;
-        right: -330px;
+        top: -466px;
+        right: -140px;
     }
     .description9{
         color: #1473E6;
@@ -994,16 +994,16 @@ body{
         place-content: center;
         display: flex;
         position: relative;
-        top: -196px;
-        right: -300px;
+        top: -480px;
+        right: -110px;
         font-size: 8px;
     }
     .immagine4{
         display: flex;
         margin: auto;
         position: relative;
-        right: 190px;
-        top: -160px;
+        right: -379px;
+        top: -827px;
         width: 300px;
     }
     .testodesc7{
@@ -1012,8 +1012,8 @@ body{
         place-content: center;
         display: flex;
         position: relative;
-        top: -140px;
-        right: 293px;
+        top: -817px;
+        right: -274px;
         font-size: 8px;
     }
     .testo5{
@@ -1022,8 +1022,8 @@ body{
         display: flex;
         font-weight: bold;
         color:  rgba(44, 44, 44, 1);
-        top: -134px;
-        right: 288px;
+        top: -807px;
+        right: -280px;
     }
     .testodesc5-container{
         align-self: center;
@@ -1038,8 +1038,8 @@ body{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
-        top: -130px;
-        right: 187px;
+        top: -800px;
+        right: -383px;
         align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
@@ -1049,8 +1049,8 @@ body{
         place-content: center;
         display: flex;
         position: relative;
-        top: -120px;
-        right: 312px;
+        top: -788px;
+        right: -257px;
         font-size: 8px;
     }
     .arrow3{
@@ -1058,8 +1058,8 @@ body{
         display: flex;
         position: relative;
         margin: auto;
-        top: -134px;
-        right: 40px;
+        top: -804px;
+        right: -520px;
     }
     .description10{
         color: #1473E6;
@@ -1067,14 +1067,14 @@ body{
         place-content: center;
         display: flex;
         position: relative;
-        top: -147px;
-        right: 70px;
+        top: -818px;
+        right: -490px;
         font-size: 8px;
     }
     .spazio{
         display: grid;
-        grid-auto-rows: 10px;
-        grid-template-columns: 0px;
+        grid-auto-rows: 0px;
+        grid-template-columns: 100px;
         align-self: center;
         place-content: center;
     }
