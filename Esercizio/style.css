@@ -159,6 +159,15 @@ body{
     top: 130px;
     right: 166px;
 }
+.testodesc3-container{
+    align-self: center;
+    place-content: center;
+    visibility: visible;
+    grid-auto-rows: 90px;
+    grid-template-columns: 400px;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+}
 .testodesc3{
     background-color: rgb(255, 255, 255);
     text-align: justify;
@@ -173,8 +182,8 @@ body{
     place-content: center;
     display: flex;
     position: relative;
-    top: 120px;
-    right: 175px;
+    top: 122px;
+    right: 180px;
     font-size: 8px;
 }
 .description6{
@@ -317,7 +326,7 @@ body{
 
 @media(min-width: 780px){
     .square1{
-        background-color: rgb(255, 88, 88);
+        background-color: rgb(0, 0, 0);
         position: relative;
         right: 300.5px;
         top: -30pX;
@@ -360,4 +369,158 @@ body{
         top: -71.2px;
         right: -150px;
     }
+    .immagine{
+        display: flex;
+        margin: auto;
+        position: relative;
+        top: 23px;
+        right: 27px;
+        width: 600px;
+    }
+    .description{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: 32px;
+        right: 285px;
+        font-size: 8px;
+    }
+    .testo1{
+        position: relative;
+        place-content: center;
+        display: flex;
+        font-weight: bold;
+        color:  rgba(44, 44, 44, 1);
+        top: 32px;
+        right: 165px;
+        font-size: 20px;
+    }
+    
+    .descrizione1{
+        display: grid;
+        grid-auto-rows: 80px;
+        grid-template-columns: 600px;
+        align-self: center;
+        place-content: center;
+    }
+    .testodesc1{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: 40px;
+        right: 23px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }
+    .testodesc2{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: 70px;
+        right: 23px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }   
+    .description2{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: 90px;
+        right: 299px;
+        font-size: 8px;
+    }
+    .arrow{
+        place-content: center;
+        display: flex;
+        position: relative;
+        margin: auto;
+        top: 75.6px;
+        right: -285px;
+    }
+    .description3{
+        color: #1473E6;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: 61.5px;
+        right: -257px;
+        font-size: 8px;
+    }
+    .immagine2{
+        display: flex;
+        margin: auto;
+        position: relative;
+        top: 93px;
+        right: 190px;
+        width: 300px;
+    }
+    .description4{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: 112px;
+        right: 295px;
+        font-size: 8px;
+    }
+    .testo3{
+        position: relative;
+        place-content: center;
+        display: flex;
+        font-weight: bold;
+        color:  rgba(44, 44, 44, 1);
+        top: 130px;
+        right: 304px;
+    }
+    .testodesc3-container{
+        visibility: visible;
+        grid-auto-rows: 90px;
+        grid-template-columns: 297px;
+        display: grid;
+        background-color: rgb(255, 255, 255);
+    }
+    .testodesc3{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: 134px;
+        right: 188px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }
+    .description5{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: 142px;
+        right: 315px;
+        font-size: 8px;
+    }
+    .description6{
+        color: #1473E6;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: 113px;
+        right: 80px;
+        font-size: 8px;
+    }
+    .arrow1{
+        place-content: center;
+        display: flex;
+        position: relative;
+        margin: auto;
+        top: 127px;
+        right: 50px;
+    }
+
 }
