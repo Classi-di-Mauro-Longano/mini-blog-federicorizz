@@ -1,6 +1,27 @@
 body{
     background-color: rgb(255, 255, 255);
 }
+.voce1{
+    visibility: hidden;
+    font-size: 10px;
+    position: relative;
+    top: -58.1px;
+    right: -390px;
+}
+.voce2{
+    visibility: hidden;
+    font-size: 10px;
+    position: relative;
+    top: -70px;
+    right: -460px;
+}
+.voce3{
+    visibility: hidden;
+    font-size: 10px;
+    position: relative;
+    top: -81.3px;
+    right: -530px;
+}
 
 .square{
     display: grid;
@@ -28,7 +49,6 @@ body{
     display: flex;
     margin: auto;
     width: 35px;
-    position: relative;
     top: 34px;
     right: -175px;
     position: relative;
@@ -293,4 +313,51 @@ body{
     top: 110px;
     align-content:top; 
     color: rgba(110, 110, 110, 1);
+}
+
+@media(min-width: 780px){
+    .square1{
+        background-color: rgb(255, 88, 88);
+        position: relative;
+        right: 300.5px;
+        top: -30pX;
+        align-content:flex-end; 
+        color: rgb(255, 255, 255);
+    }
+    .menu{
+        visibility: hidden;
+    }
+    .voce-grid{
+        display: grid;
+        background-color: #ffffff;
+        grid-auto-rows: 1px;
+        grid-template-columns: 30px;
+        align-self: center;
+        place-content: center;
+    }
+    .voce1{
+
+        visibility: visible;
+        font-size: 10px;
+        position: relative;
+        place-content: center;
+        top: -70px;
+        right: -30px;
+    }
+    .voce2{
+
+        visibility: visible;
+        font-size: 10px;
+        position: relative;
+        top: -70.5px;
+        right: -90px;
+    }
+    .voce3{
+
+        visibility: visible;
+        font-size: 10px;
+        position: relative;
+        top: -71.2px;
+        right: -150px;
+    }
 }
