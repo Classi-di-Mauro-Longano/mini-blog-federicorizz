@@ -211,6 +211,7 @@ body{
     top: 113px;
     width: 400px;
 }
+
 .description7{
     color: rgba(110, 110, 110, 1);;
     font-weight: bold;
@@ -229,6 +230,16 @@ body{
     color:  rgba(44, 44, 44, 1);
     top: 140px;
     right: 152px;
+}
+.container-description4{
+    align-self: center;
+    place-content: center;
+    visibility: visible;
+    grid-auto-rows: 90px;
+    grid-template-columns: 400px;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+
 }
 .testodesc4{
     background-color: rgb(255, 255, 255);
@@ -272,6 +283,16 @@ body{
     position: relative;
     top: 123px;
     width: 400px;
+}
+.testodesc7{
+    color: rgba(110, 110, 110, 1);;
+    font-weight: bold;
+    place-content: center;
+    display: flex;
+    position: relative;
+    top: 130px;
+    right: 153px;
+    font-size: 8px;
 }
 .testo5{
     position: relative;
@@ -521,6 +542,148 @@ body{
         margin: auto;
         top: 127px;
         right: 50px;
+    }
+    .immagine3{
+        display: flex;
+        margin: auto;
+        position: relative;
+        top: -227px;
+        right: -190px;
+        width: 300px;
+    }
+    .description7{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -199px;
+        right: -83px;
+        font-size: 8px;
+    }
+    .testo4{
+        position: relative;
+        place-content: center;
+        display: flex;
+        font-weight: bold;
+        color:  rgba(44, 44, 44, 1);
+        top: -190px;
+        right: -89px;
+    }
+    .container-description4{
+        align-self: center;
+        place-content: center;
+        visibility: visible;
+        grid-auto-rows: 90px;
+        grid-template-columns: 300px;
+        display: grid;
+        background-color: rgb(255, 255, 255);
+    
+    }
+    .testodesc4{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: -184px;
+        right: -192px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }
+    .description8{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -170px;
+        right: -62px;
+        font-size: 8px;
+    }
+    .arrow2{
+        place-content: center;
+        display: flex;
+        position: relative;
+        margin: auto;
+        top: -182px;
+        right: -330px;
+    }
+    .description9{
+        color: #1473E6;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -196px;
+        right: -300px;
+        font-size: 8px;
+    }
+    .immagine4{
+        display: flex;
+        margin: auto;
+        position: relative;
+        right: 190px;
+        top: -160px;
+        width: 300px;
+    }
+    .testodesc7{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -140px;
+        right: 293px;
+        font-size: 8px;
+    }
+    .testo5{
+        position: relative;
+        place-content: center;
+        display: flex;
+        font-weight: bold;
+        color:  rgba(44, 44, 44, 1);
+        top: 140px;
+        right: 152px;
+    }
+    .testodesc5{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: 144px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }
+    .arrow3{
+        place-content: center;
+        display: flex;
+        position: relative;
+        margin: auto;
+        top: 117.5px;
+        right: -187px;
+    }
+    .description10{
+        color: #1473E6;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: 103.5px;
+        right: -160px;
+        font-size: 8px;
+    }
+    .spazio{
+        display: grid;
+        grid-auto-rows: 40px;
+        grid-template-columns: 90px;
+        align-self: center;
+        place-content: center;
+    }
+    .spaziotext{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: 110px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
     }
 
 }
