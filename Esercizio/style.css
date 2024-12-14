@@ -726,3 +726,364 @@ body{
     }
 
 }
+@media(min-width: 1200px){
+    .square1{
+        background-color: rgb(0, 0, 0);
+        position: relative;
+        right: 500.5px;
+        top: -30pX;
+        align-content:flex-end; 
+        color: rgb(255, 255, 255);
+    }
+    .menu{
+        visibility: hidden;
+    }
+    .voce-grid{
+        display: grid;
+        background-color: #ffffff;
+        grid-auto-rows: 1px;
+        grid-template-columns: 30px;
+        align-self: center;
+        place-content: center;
+    }
+    .voce1{
+
+        visibility: visible;
+        font-size: 10px;
+        position: relative;
+        place-content: center;
+        top: -70px;
+        right: -310px;
+    }
+    .voce2{
+
+        visibility: visible;
+        font-size: 10px;
+        position: relative;
+        top: -70.5px;
+        right: -400px;
+    }
+    .voce3{
+
+        visibility: visible;
+        font-size: 10px;
+        position: relative;
+        top: -71.2px;
+        right: -500px;
+    }
+    .immagine{
+        display: flex;
+        margin: auto;
+        position: relative;
+        top: 23px;
+        right: 295px;
+        width: 470px;
+    }
+    .description{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -238px;
+        right: 2px;
+        font-size: 8px;
+    }
+    .testo1{
+        position: relative;
+        place-content: center;
+        display: flex;
+        font-weight: bold;
+        color:  rgba(44, 44, 44, 1);
+        top: -230px;
+        right: -117px;
+        font-size: 20px;
+    }
+    
+    .descrizione1{
+        display: grid;
+        grid-auto-rows: 80px;
+        grid-template-columns: 600px;
+        align-self: center;
+        place-content: center;
+    }
+    .testodesc1{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: -220px;
+        right: -258px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }
+    .testodesc2{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: -200px;
+        right: -258px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }   
+    .description2{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -186px;
+        right: 20px;
+        font-size: 8px;
+    }
+    .arrow{
+        place-content: center;
+        display: flex;
+        position: relative;
+        margin: auto;
+        top: -200px;
+        right: -530px;
+    }
+    .description3{
+        color: #1473E6;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -214px;
+        right: -499px;
+        font-size: 8px;
+    }
+    .immagine2{
+        display: flex;
+        margin: auto;
+        position: relative;
+        top: 93px;
+        right: 190px;
+        width: 300px;
+    }
+    .description4{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: 112px;
+        right: 295px;
+        font-size: 8px;
+    }
+    .testo3{
+        position: relative;
+        place-content: center;
+        display: flex;
+        font-weight: bold;
+        color:  rgba(44, 44, 44, 1);
+        top: 130px;
+        right: 304px;
+    }
+    .testodesc3-container{
+        visibility: visible;
+        grid-auto-rows: 90px;
+        grid-template-columns: 297px;
+        display: grid;
+        background-color: rgb(255, 255, 255);
+    }
+    .testodesc3{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: 134px;
+        right: 188px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }
+    .description5{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: 142px;
+        right: 315px;
+        font-size: 8px;
+    }
+    .description6{
+        color: #1473E6;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: 113px;
+        right: 80px;
+        font-size: 8px;
+    }
+    .arrow1{
+        place-content: center;
+        display: flex;
+        position: relative;
+        margin: auto;
+        top: 127px;
+        right: 50px;
+    }
+    .immagine3{
+        display: flex;
+        margin: auto;
+        position: relative;
+        top: -227px;
+        right: -190px;
+        width: 300px;
+    }
+    .description7{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -199px;
+        right: -83px;
+        font-size: 8px;
+    }
+    .testo4{
+        position: relative;
+        place-content: center;
+        display: flex;
+        font-weight: bold;
+        color:  rgba(44, 44, 44, 1);
+        top: -190px;
+        right: -89px;
+    }
+    .container-description4{
+        align-self: center;
+        place-content: center;
+        visibility: visible;
+        grid-auto-rows: 90px;
+        grid-template-columns: 300px;
+        display: grid;
+        background-color: rgb(255, 255, 255);
+    
+    }
+    .testodesc4{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: -184px;
+        right: -192px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }
+    .description8{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -170px;
+        right: -62px;
+        font-size: 8px;
+    }
+    .arrow2{
+        place-content: center;
+        display: flex;
+        position: relative;
+        margin: auto;
+        top: -182px;
+        right: -330px;
+    }
+    .description9{
+        color: #1473E6;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -196px;
+        right: -300px;
+        font-size: 8px;
+    }
+    .immagine4{
+        display: flex;
+        margin: auto;
+        position: relative;
+        right: 190px;
+        top: -160px;
+        width: 300px;
+    }
+    .testodesc7{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -140px;
+        right: 293px;
+        font-size: 8px;
+    }
+    .testo5{
+        position: relative;
+        place-content: center;
+        display: flex;
+        font-weight: bold;
+        color:  rgba(44, 44, 44, 1);
+        top: -134px;
+        right: 288px;
+    }
+    .testodesc5-container{
+        align-self: center;
+        place-content: center;
+        visibility: visible;
+        grid-auto-rows: 90px;
+        grid-template-columns: 300px;
+        display: grid;
+        background-color: rgb(255, 255, 255);
+    }
+    .testodesc5{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: -130px;
+        right: 187px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }
+    .description11{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -120px;
+        right: 312px;
+        font-size: 8px;
+    }
+    .arrow3{
+        place-content: center;
+        display: flex;
+        position: relative;
+        margin: auto;
+        top: -134px;
+        right: 40px;
+    }
+    .description10{
+        color: #1473E6;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -147px;
+        right: 70px;
+        font-size: 8px;
+    }
+    .spazio{
+        display: grid;
+        grid-auto-rows: 10px;
+        grid-template-columns: 0px;
+        align-self: center;
+        place-content: center;
+    }
+    .spaziotext{
+        background-color: rgb(255, 255, 255);
+        text-align: justify;
+        position: relative;
+        top: 100px;
+        align-content:top; 
+        color: rgba(110, 110, 110, 1);
+    }
+}
