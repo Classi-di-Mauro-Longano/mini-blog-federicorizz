@@ -303,6 +303,15 @@ body{
     top: 140px;
     right: 152px;
 }
+.testodesc5-container{
+    align-self: center;
+    place-content: center;
+    visibility: visible;
+    grid-auto-rows: 90px;
+    grid-template-columns: 400px;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+}
 .testodesc5{
     background-color: rgb(255, 255, 255);
     text-align: justify;
@@ -310,6 +319,16 @@ body{
     top: 144px;
     align-content:top; 
     color: rgba(110, 110, 110, 1);
+}
+.description11{
+    color: rgba(110, 110, 110, 1);;
+    font-weight: bold;
+    place-content: center;
+    display: flex;
+    position: relative;
+    top: 132px;
+    right: 180px;
+    font-size: 8px;
 }
 .arrow3{
     place-content: center;
@@ -641,24 +660,44 @@ body{
         display: flex;
         font-weight: bold;
         color:  rgba(44, 44, 44, 1);
-        top: 140px;
-        right: 152px;
+        top: -134px;
+        right: 288px;
+    }
+    .testodesc5-container{
+        align-self: center;
+        place-content: center;
+        visibility: visible;
+        grid-auto-rows: 90px;
+        grid-template-columns: 300px;
+        display: grid;
+        background-color: rgb(255, 255, 255);
     }
     .testodesc5{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
-        top: 144px;
+        top: -130px;
+        right: 187px;
         align-content:top; 
         color: rgba(110, 110, 110, 1);
+    }
+    .description11{
+        color: rgba(110, 110, 110, 1);;
+        font-weight: bold;
+        place-content: center;
+        display: flex;
+        position: relative;
+        top: -120px;
+        right: 312px;
+        font-size: 8px;
     }
     .arrow3{
         place-content: center;
         display: flex;
         position: relative;
         margin: auto;
-        top: 117.5px;
-        right: -187px;
+        top: -134px;
+        right: 40px;
     }
     .description10{
         color: #1473E6;
@@ -666,14 +705,14 @@ body{
         place-content: center;
         display: flex;
         position: relative;
-        top: 103.5px;
-        right: -160px;
+        top: -147px;
+        right: 70px;
         font-size: 8px;
     }
     .spazio{
         display: grid;
-        grid-auto-rows: 40px;
-        grid-template-columns: 90px;
+        grid-auto-rows: 10px;
+        grid-template-columns: 0px;
         align-self: center;
         place-content: center;
     }
@@ -681,7 +720,7 @@ body{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
-        top: 110px;
+        top: 100px;
         align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
