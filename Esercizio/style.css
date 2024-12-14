@@ -857,8 +857,8 @@ body{
         display: flex;
         margin: auto;
         position: relative;
-        top: 93px;
-        right: 190px;
+        top: -150px;
+        right: 380px;
         width: 300px;
     }
     .description4{
@@ -867,8 +867,8 @@ body{
         place-content: center;
         display: flex;
         position: relative;
-        top: 112px;
-        right: 295px;
+        top: -140px;
+        right: 485px;
         font-size: 8px;
     }
     .testo3{
@@ -877,8 +877,8 @@ body{
         display: flex;
         font-weight: bold;
         color:  rgba(44, 44, 44, 1);
-        top: 130px;
-        right: 304px;
+        top: -130px;
+        right: 494px;
     }
     .testodesc3-container{
         visibility: visible;
@@ -891,8 +891,8 @@ body{
         background-color: rgb(255, 255, 255);
         text-align: justify;
         position: relative;
-        top: 134px;
-        right: 188px;
+        top: -124px;
+        right: 377px;
         align-content:top; 
         color: rgba(110, 110, 110, 1);
     }
@@ -902,8 +902,8 @@ body{
         place-content: center;
         display: flex;
         position: relative;
-        top: 142px;
-        right: 315px;
+        top: -112px;
+        right: 503px;
         font-size: 8px;
     }
     .description6{
@@ -912,8 +912,8 @@ body{
         place-content: center;
         display: flex;
         position: relative;
-        top: 113px;
-        right: 80px;
+        top: -141px;
+        right: 270px;
         font-size: 8px;
     }
     .arrow1{
@@ -921,15 +921,15 @@ body{
         display: flex;
         position: relative;
         margin: auto;
-        top: 127px;
-        right: 50px;
+        top: -128px;
+        right: 240px;
     }
     .immagine3{
         display: flex;
         margin: auto;
         position: relative;
-        top: -227px;
-        right: -190px;
+        top: -487px;
+        right: -90px;
         width: 300px;
     }
     .description7{
